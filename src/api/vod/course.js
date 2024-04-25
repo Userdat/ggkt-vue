@@ -57,5 +57,12 @@ export default {
         method: 'delete'
       })
     },
+
+    findAll() {
+      return request({
+        url: `${api_name}/findAll`,
+        method: 'get'
+      })
+    },   
         
 }
